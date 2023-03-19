@@ -5,6 +5,8 @@ import { MatIconModule } from '@angular/material/icon';
 import { NavComponent } from './components/nav/nav.component';
 import { LayoutComponent } from './components/layout/layout.component';
 import { NavButtonComponent } from './components/nav-button/nav-button.component';
+import { HeaderComponent } from './components/header/header.component';
+import { ContainerComponent } from './components/container/container.component';
 
 
 
@@ -14,12 +16,15 @@ const material = [MatIconModule];
 const components = [
     NavComponent,
     LayoutComponent,
+    NavButtonComponent,
+    HeaderComponent,
 ];
 
 @NgModule({
   declarations: [
     ...components,
-    NavButtonComponent,
+    ContainerComponent,
+    
   ],
   imports: [
     CommonModule, ...material, RouterModule

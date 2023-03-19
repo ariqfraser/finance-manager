@@ -1,0 +1,13 @@
+@import '../../../../theme.scss';
+
+:host {
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    border-radius: 8px;
+    
+    padding: $container-padding;
+    background-color: $color-basic-100;
+}
