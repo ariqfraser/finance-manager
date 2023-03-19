@@ -12,4 +12,5 @@ $height: calc(100vh - 2rem);
     min-height: $height;
     max-height: $height;
     width: 100%;
+    grid-auto-rows: max-content;
 }

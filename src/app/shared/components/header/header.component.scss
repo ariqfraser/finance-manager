@@ -1,0 +1,9 @@
+@import  '../../../../theme.scss';
+:host {
+    grid-column: span 4;
+}
+
+p {
+    margin: 0;
+    color: $color-basic-300;
+}
