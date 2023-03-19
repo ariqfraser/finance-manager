@@ -1,0 +1,27 @@
+@import "../../../../theme.scss";
+
+:host {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    
+    &.active > div {
+        color: $color-basic-100;
+        background-color: $color-basic-900;
+    }
+}
+
+div {
+    padding: 1rem 1.5rem;
+    border-radius: 100vh;
+    color: $color-basic-300;
+    transition: all 200ms ease-in-out;
+    
+    &:not(.active):hover {
+        color: $color-basic-900;
+    }
+    
+}
+

@@ -1,0 +1,10 @@
+$height: calc(100vh - 2rem);
+
+.grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: minmax(300px, 1fr) repeat(4, 1fr);
+    margin: 1rem;
+    min-height: $height;
+    max-height: $height;
+}
