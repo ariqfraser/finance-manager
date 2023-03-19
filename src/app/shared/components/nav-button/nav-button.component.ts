@@ -9,4 +9,6 @@ export class NavButtonComponent {
 
   
   @Input() to: string = '';
+  @Input() text: string = '';
+  @Input() icon?: string;
 }

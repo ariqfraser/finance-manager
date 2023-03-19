@@ -16,6 +16,10 @@
     padding: $container-padding;
     background-color: $color-basic-100;
     
+    app-nav-button {
+        margin-bottom: 0.5rem;
+    }
+    
     p {
         margin: 0;
         margin-top: auto;

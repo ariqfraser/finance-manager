@@ -14,13 +14,24 @@ a {
 }
 
 div {
-    padding: 1rem 1.5rem;
+    display: flex;
+    align-items: center;
+    padding: 0.75rem 1.5rem;
     border-radius: 100vh;
     color: $color-basic-300;
     transition: all 200ms ease-in-out;
     
+    .mat-icon {
+        margin-right: 0.5rem;
+    }
+    
     &:not(.active):hover {
         color: $color-basic-900;
+    }
+    
+    span {
+        font-size: 1rem;
+        margin-top: 3px;
     }
     
 }
